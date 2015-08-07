@@ -23,7 +23,7 @@
   "bugs": {
     "url": "https://github.com/bsiddiqui/verify-address/issues"
   },
-  "homepage": "https://github.com/bsiddiqui/verify-address#readme",
+  "homepage": "https://github.com/bsiddiqui/verify-address",
   "dependencies": {
     "micro-req": "^1.0.0"
   },
