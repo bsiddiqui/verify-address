@@ -1,0 +1,36 @@
+{
+  "name": "verify-address",
+  "version": "0.1.0",
+  "description": "Simple address verification",
+  "main": "index.js",
+  "scripts": {
+    "test": "istanbul cover _mocha --"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bsiddiqui/verify-address.git"
+  },
+  "keywords": [
+    "address",
+    "verify",
+    "verification",
+    "lob",
+    "address",
+    "verification"
+  ],
+  "author": "Basil Siddiqui <basil.siddiqui@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bsiddiqui/verify-address/issues"
+  },
+  "homepage": "https://github.com/bsiddiqui/verify-address#readme",
+  "dependencies": {
+    "micro-req": "^1.0.0"
+  },
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "chai-as-promised": "^5.1.0",
+    "istanbul": "^0.3.17",
+    "mocha": "^2.2.5"
+  }
+}
