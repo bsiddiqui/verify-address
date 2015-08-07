@@ -39,8 +39,7 @@ The address to verify
 * address_zip: optional
 * address_country: optional (2 letter country short-name code (ISO 3316))
 
-#### callback
-
+##### callback
 *Required*
 Type: `function`
 Arguments: `err, response`
@@ -53,11 +52,11 @@ Type: `boolean`
 
 Whether the address is valid or not
 
-##### address
+###### address
 
 Type: `object`
 
-#### message
+###### message
 
 Type: `string`
 
