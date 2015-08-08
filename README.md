@@ -32,12 +32,12 @@ verify({
 Type: `object`
 
 The address to verify
-* address_line1: optional
-* address_line2: optional
-* address_city: optional
-* address_state: optional
-* address_zip: optional
-* address_country: optional (2 letter country short-name code (ISO 3316))
+* address_line1: *optional*
+* address_line2: *optional*
+* address_city: *optional*
+* address_state:*optional*
+* address_zip: *optional*
+* address_country: *optional* (2 letter country short-name code (ISO 3316))
 
 ##### callback
 *Required*
@@ -55,6 +55,8 @@ Whether the address is valid or not
 ###### address
 
 Type: `object`
+
+Validated address object if address is found
 
 ###### message
 
