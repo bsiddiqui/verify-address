@@ -12,11 +12,10 @@
   },
   "keywords": [
     "address",
-    "verify",
-    "verification",
-    "lob",
     "address",
-    "verification"
+    "lob",
+    "verification",
+    "verify"
   ],
   "author": "Basil Siddiqui <basil.siddiqui@gmail.com>",
   "license": "MIT",
