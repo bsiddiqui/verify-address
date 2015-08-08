@@ -25,7 +25,7 @@
   "homepage": "https://github.com/bsiddiqui/verify-address",
   "dependencies": {
     "Base64": "~0.3.0",
-    "micro-req": "^1.0.0"
+    "got": "^4.1.1"
   },
   "devDependencies": {
     "chai": "^3.2.0",
