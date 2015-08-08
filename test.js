@@ -1,7 +1,9 @@
 'use strict'
 
+/* global describe, it */
+
 var verify = require('./index')
-var chai   = require('chai')
+var chai = require('chai')
 var expect = chai.expect
 
 describe('verify', function () {
@@ -24,7 +26,7 @@ describe('verify', function () {
       address_line1: '255 King St',
       address_line2: '414',
       address_city: 'San Francisco',
-      address_zip: '94107',
+      address_zip: '94107'
     }, function (err, response) {
       expect(response.valid).to.eql(true)
       expect(response.address.address_country).to.eql('US')
@@ -37,7 +39,7 @@ describe('verify', function () {
     verify({
       address_line1: '255 King St',
       address_city: 'San Francisco',
-      address_zip: '94107',
+      address_zip: '94107'
     }, function (err, response) {
       expect(response.valid).to.eql(true)
       expect(response.message).to
@@ -50,7 +52,7 @@ describe('verify', function () {
     verify({
       address_line1: '123 Hacker Rd',
       address_city: 'San Francisco',
-      address_zip: '94107',
+      address_zip: '94107'
     }, function (err, response) {
       expect(err).to.be.instanceof(Object)
       expect(response.valid).to.eql(false)

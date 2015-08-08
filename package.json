@@ -4,7 +4,7 @@
   "description": "Simple address verification",
   "main": "index.js",
   "scripts": {
-    "test": "istanbul cover _mocha --"
+    "test": "standard && istanbul cover _mocha --"
   },
   "repository": {
     "type": "git",
@@ -12,11 +12,10 @@
   },
   "keywords": [
     "address",
-    "verify",
-    "verification",
-    "lob",
     "address",
-    "verification"
+    "lob",
+    "verification",
+    "verify"
   ],
   "author": "Basil Siddiqui <basil.siddiqui@gmail.com>",
   "license": "MIT",
@@ -25,12 +24,14 @@
   },
   "homepage": "https://github.com/bsiddiqui/verify-address",
   "dependencies": {
+    "Base64": "~0.3.0",
     "micro-req": "^1.0.0"
   },
   "devDependencies": {
     "chai": "^3.2.0",
     "chai-as-promised": "^5.1.0",
     "istanbul": "^0.3.17",
-    "mocha": "^2.2.5"
+    "mocha": "^2.2.5",
+    "standard": "~5.0.2"
   }
 }
