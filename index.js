@@ -12,7 +12,7 @@ module.exports = function verify (address, callback) {
       },
       body: address
     }, function (err, response) {
-      callback (err, {
+      callback(err, {
         valid: err ? false: true,
         address: response.body.address,
         message: response.body.message
