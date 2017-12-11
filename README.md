@@ -1,6 +1,8 @@
 # verify-address
 [![Build Status](https://travis-ci.org/bsiddiqui/verify-address.svg?branch=master)](https://travis-ci.org/bsiddiqui/verify-address) [![Code Climate](https://codeclimate.com/github/bsiddiqui/verify-address/badges/gpa.svg)](https://codeclimate.com/github/bsiddiqui/verify-address) [![Test Coverage](https://codeclimate.com/github/bsiddiqui/verify-address/badges/coverage.svg)](https://codeclimate.com/github/bsiddiqui/verify-address) [![Version](https://badge.fury.io/js/verify-address.svg)](http://badge.fury.io/js/verify-address) [![Downloads](http://img.shields.io/npm/dm/verify-address.svg)](https://www.npmjs.com/package/verify-address)
 
+## This project is deprecated. I recommend using Lob's API directly.
+
 Super lightweight address verification courtesy of [Lob](https://lob.com).
 
 ## Install
